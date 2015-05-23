@@ -1,0 +1,15 @@
+Analysis & Synthesis Status : Successful - Fri May 22 09:52:09 2015
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Web Edition
+Revision Name : cpu-evm
+Top-level Entity Name : cpu-evm
+Family : Stratix II
+Logic utilization : N/A
+    Combinational ALUTs : 1,580
+    Dedicated logic registers : 1,240
+Total registers : 1240
+Total pins : 159
+Total virtual pins : 0
+Total block memory bits : 4,096
+DSP block 9-bit elements : 0
+Total PLLs : 0
+Total DLLs : 0

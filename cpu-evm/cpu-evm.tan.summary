@@ -1,0 +1,76 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 7.851 ns
+From           : address[6]
+To             : replacelogic:inst2|rlblock:inst5|lpm_counter5:inst3|lpm_counter:lpm_counter_component|cntr_roi:auto_generated|safe_q[0]
+From Clock     : --
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 21.090 ns
+From           : tagmemory:inst|string:inst1|lpm_dff5:inst2|lpm_ff:lpm_ff_component|dffs[0]
+To             : word[8]
+From Clock     : clk
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 18.121 ns
+From           : address[6]
+To             : word[8]
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 5.363 ns
+From           : InWord[14]
+To             : cachememory:inst17|cachememorystring:inst2|kstringblock:inst|lpm_dff0:inst2|lpm_ff:lpm_ff_component|dffs[14]
+From Clock     : --
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Clock Setup: 'clk'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 91.35 MHz ( period = 10.947 ns )
+From           : tagmemory:inst|string:inst1|lpm_dff5:inst9|lpm_ff:lpm_ff_component|dffs[3]
+To             : replacelogic:inst2|rlblock:inst3|lpm_counter5:inst|lpm_counter:lpm_counter_component|cntr_roi:auto_generated|safe_q[3]
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Clock Hold: 'clk'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : mgen15:inst1|mgen15counter:inst1|lpm_counter:lpm_counter_component|cntr_svj:auto_generated|safe_q[0]
+To             : cachememory:inst17|cachememorystring:inst10|kstringblock:inst2|lpm_dff0:inst1|lpm_ff:lpm_ff_component|dffs[3]
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 10000
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 10000
+
+--------------------------------------------------------------------------------------
+
